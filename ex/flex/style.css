@@ -18,6 +18,33 @@ body {
 }
 
 
+/* from min width 400px up to 649px  WE HAVE TO PUT THEM IN INCREASING ORDER WHEN USING MIN */
+
+
+/* @media (min-width: 400px) and (max-width: 649px) {
+    body {
+        background: purple;
+    }
+} */
+
+
+/* @media (min-width: 500px) and (orientation: landscape) {
+    body {
+        background: palegreen;
+    }
+} */
+
+
+/* from min width  650px */
+
+
+/* @media (min-width: 650px) {
+    body {
+        background: orange;
+    }
+} */
+
+
 /* typography */
 
 h1 {
@@ -54,19 +81,35 @@ img {
 
 .columns {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     margin: 1em 0;
 }
 
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+}
+
 .col-1 {
-    width: 25%;
+    width: 20%;
 }
 
 .col-2 {
-    width: 50%;
+    width: 45%;
 }
 
 .col-3 {
-    width: 75%;
+    width: 70%;
+}
+
+@media (max-width: 600px) {
+    .col-1,
+    .col-2,
+    .col-3 {
+        width: 100%;
+    }
 }
 
 .col-bg {
