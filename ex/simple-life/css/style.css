@@ -18,6 +18,13 @@ navy: #143774 */
         max-width: 100%;
         display: block;
     }
+    
+    .image-full {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        margin-bottom: 3em;
+    }
     /* =====================
      Typography 
 ======================*/
@@ -36,7 +43,8 @@ navy: #143774 */
         margin: 0;
     }
     
-    a {
+    a,
+    h3 {
         color: #1792d2;
     }
     
@@ -80,6 +88,10 @@ navy: #143774 */
     
     .article-info {
         margin: 2em 0;
+    }
+    
+    .widget-recent-post-title {
+        color: #143774;
     }
     /* =====================
      Layout
