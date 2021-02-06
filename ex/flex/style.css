@@ -1,0 +1,76 @@
+/* h1: 3rem
+h2: 1.5 rem
+body: 1.125rem
+
+layout
+max-width: 980px
+
+dark brown: #312614
+light brow: #B7832F
+grey: #707070
+white; #FFF*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    color: #707070;
+}
+
+
+/* typography */
+
+h1 {
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h1 span {
+    color: #b7835f;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+/* layout */
+
+img {
+    max-width: 100%;
+    /* the image does not get bigger than its original size. it wont be blurry */
+}
+
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    margin: 1em 0;
+}
+
+.col-1 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 75%;
+}
+
+.col-bg {
+    background: #312614;
+    color: #fff;
+    padding: 1em;
+}
