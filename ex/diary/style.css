@@ -1,0 +1,52 @@
+/* 
+    Pause the video, go over to the input textbox and start typing.
+    Notice the not-so-good-looking black border outline on our textbox.
+    Play when you see it.
+    
+    hint: search for "How to remove input field border outline on focus CSS"
+ */
+
+body {
+    margin: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    display: grid;
+    justify-content: center;
+}
+
+.title {
+    color: #16697A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.entry-textbox {
+    background-color: #FFA62B;
+    width: 20em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border: unset;
+    border-radius: 25px;
+}
+
+.entry-textbox:focus {
+    outline: none;
+}
+
+#entryForm .button {
+    border: unset;
+    border-radius: 25px;
+    padding: 5px 16px;
+    margin-left: 76%;
+}
+
+#entries {
+    background: #16697A;
+    color: #EDE7E3;
+    font-family: cursive;
+    padding: 2em;
+    max-width: 20em;
+    border: unset;
+    border-radius: 25px;
+    margin-top: 1em;
+}
