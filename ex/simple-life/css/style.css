@@ -125,7 +125,7 @@ navy: #143774 */
     
     footer {
         background: #143774;
-        color: white;
+        color: rgba(255, 255, 255, .65);
         text-align: center;
         padding: 3em 0;
     }
