@@ -21,7 +21,7 @@ h1 {
     font-size: 2.25rem;
     font-weight: 300;
     color: #fff;
-    margin: 2em 0;
+    margin: 0;
 }
 
 
@@ -79,6 +79,8 @@ strong {
     padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
 }
 
 
@@ -89,6 +91,29 @@ strong {
 .main-content {
     padding: 2em 1em;
 }
+
+
+/* THIS SOLVES ISSUES ON VERY LARGE SCRRENS */
+
+.intro>*,
+.main-content>* {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* .container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+} */
 
 
 /* =================
@@ -112,4 +137,13 @@ strong {
         width: 50%;
         min-height: 100vh;
     }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* .container-intro {
+        height: 100%;
+        /* it matches the height of the parent 
+    } */
 }
