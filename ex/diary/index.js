@@ -21,6 +21,10 @@ function addEntryToDom(event) {
     displayEntryButton.innerText = count;
 
     displayEntryButton.addEventListener('click', () => {
+
+        const allEntries = document.querySelectorAll('.single-entry');
+        allEntries.forEach(element => element.style.display = 'none');
+
         entryDiv.style.display = 'block';
     })
 

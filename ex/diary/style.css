@@ -50,3 +50,16 @@ body {
     border-radius: 25px;
     margin-top: 1em;
 }
+
+.enries-nav {
+    padding-bottom: 1em;
+}
+
+.display-entry-button {
+    margin: 0.2em;
+}
+
+.display-entry-button:focus,
+.display-entry-button:hover {
+    cursor: pointer;
+}
