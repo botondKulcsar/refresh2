@@ -64,6 +64,7 @@ button {
 
 #doubleOrNothing {
     background-color: var(--color-2);
+    color: var(--color-5);
 }
 
 button:focus {

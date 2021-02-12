@@ -21,6 +21,7 @@ const doubleBtn = document.getElementById('doubleOrNothing');
 
 function gameOver() {
     rollBtn.style.display = 'none';
+    doubleBtn.style.display = 'none';
     resetBtn.style.display = 'inline';
 }
 
@@ -117,6 +118,7 @@ function resetGame() {
     player1Turn = true;
     resetBtn.style.display = 'none';
     rollBtn.style.display = 'inline';
+    doubleBtn.style.display = 'inline';
     player2Dice.classList.remove('active');
     player1Dice.classList.add('active');
 }
